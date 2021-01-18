@@ -3,7 +3,9 @@ package com.yasin.shoppingapp.product.model;
 import lombok.Builder;
 import lombok.Data;
 
-@Builder
 @Data
-public class ProductSaveRequest {
+@Builder
+public class ProductSellerResponse {
+    private String id;
+    private String name;
 }
